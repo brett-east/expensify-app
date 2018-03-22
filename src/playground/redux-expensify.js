@@ -31,7 +31,7 @@ const editExpense = (id, updates) => ({
   type: 'EDIT_EXPENSE',
   id,
   updates
-})
+});
 
 // SET_TEXT_FILTER
 const setTextFilter = (text = '') => ({
