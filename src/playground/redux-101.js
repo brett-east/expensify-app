@@ -49,7 +49,7 @@ const store = createStore(countReducer);
 
 
 const unsubscribe = store.subscribe(() => {
-  console.log(store.getState());
+  // console.log(store.getState());
 });
 
 store.dispatch(incrementCount({ incrementBy: 5 }));
